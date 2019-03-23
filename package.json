@@ -1,0 +1,28 @@
+{
+  "name": "portafolio",
+  "version": "1.0.0",
+  "description": "Portafolio Gloria Moraga",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GloriaMoraga/Portafolio.git"
+  },
+  "author": "Gloria Moraga",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GloriaMoraga/Portafolio/issues"
+  },
+  "homepage": "https://github.com/GloriaMoraga/Portafolio#readme",
+  "dependencies": {
+    "jest": "^24.5.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^5.15.3",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.16.0"
+  }
+}
