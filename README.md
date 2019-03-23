@@ -8,7 +8,7 @@ https://www.figma.com/file/Ol3gwZ8sYmaUbEhPFHi60vv2/Portafolio-Gloria-Moraga?nod
 
 
 ## Planificacion
-https://github.com/GloriaMoraga/Portafolio-2019/projects/1
+https://github.com/GloriaMoraga/PortafoliO/projects/1
 
 
 
