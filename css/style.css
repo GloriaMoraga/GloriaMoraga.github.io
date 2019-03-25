@@ -121,12 +121,7 @@
      stroke-dasharray: 0 87.5%;
    }
  }
- #portfolio,
- #sobremi,
- #habilidades,
- #contacto {
-     border-top: 2px dotted rgba(0, 0, 0, 0.1);
- }
+
  
  section .col {
      margin-bottom: 24px;
@@ -193,3 +188,18 @@
         font-weight: 300!important;
   }
  
+
+ 
+#background-video{
+
+    position: absolute;
+    width: 100%;
+    z-index: -20;
+    object-fit: cover;
+    height: 100%;
+    /* background: url(Component/imgbreak/burgerchip.jpg) no-repeat;
+    background-size: cover; */
+
+    
+    
+    }
