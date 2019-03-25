@@ -1,14 +1,11 @@
-/* Custom Stylesheet */
-/**
- * Use this file to override Materialize files so you can update
- * the core Materialize files in the future
- *
- * Made By MaterializeCSS.com
- */
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Upright:400,600,700|Open+Sans:300,400,700&subset=latin-ext');
 
+nav{
+   box-shadow: none!important; 
+}
  nav ul a,
  nav .brand-logo {
-   color: #444;
+   color: #666!important;
    font-weight: 200;
  }
  
@@ -20,6 +17,13 @@
  
  .button-collapse {
    color: #26a69a;
+ }
+
+ .txt-title{
+    font-family: 'Cormorant Upright', serif;
+ }
+ .txt-parrafo{
+    font-family: 'Open Sans', sans-serif;
  }
  
  .parallax-container {
@@ -203,3 +207,14 @@
     
     
     }
+.video-opacity{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 1;
+    transition: opacity 0.5s ease;
+    background: rgba(153, 51, 153, 0.2);
+}
+
