@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Cormorant+Upright:400,600,700|Open+Sans:300,400,700&subset=latin-ext');
 
+
+
 nav{
    box-shadow: none!important; 
 }
@@ -11,7 +13,7 @@ nav{
  
  p {
    line-height: 2rem;
- font-family: "Roboto", sans-serif;
+ font-family: 'Open Sans', sans-serif;
  font-weight: 300;
  }
  
@@ -21,37 +23,26 @@ nav{
 
  .txt-title{
     font-family: 'Cormorant Upright', serif;
+    color: #fff;
  }
  .txt-parrafo{
     font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    font-size: 18px;
  }
  
  .parallax-container {
-   min-height: 550px;
    line-height: 0;
    height: auto;
-   color: rgba(255,255,255,.9);
  }
    .parallax-container .section {
      width: 100%;
    }
  
- @media only screen and (max-width : 992px) {
-   .parallax-container .section {
-     position: absolute;
-     top: 40%;
-   }
-   #index-banner .section {
-     top: 10%;
-   }
- }
- 
- @media only screen and (max-width : 600px) {
-   #index-banner .section {
-     top: 0;
-   }
- 
- }
+.text-index{
+  width: 60%;
+  margin: 0 auto;
+}
  
  .icon-block {
    padding: 0 15px;
@@ -68,63 +59,6 @@ nav{
  
  
  
- .text--line {
-   font-size: .5em;
- }
- 
- svg {
-   width: 60%;
-   height: auto;
-   font: 16em/1 Roboto;
- }
- 
- .text-copy {
-   fill: none;
-   stroke: white;
-   stroke-dasharray: 7% 28%;
-   stroke-width: 3px;
-   -webkit-animation: stroke-offset 8s linear;
-   animation: stroke-offset 8s linear;
- }
- 
- .text-copy:nth-child(1) {
-   stroke: #663366;
-   stroke-dashoffset: 7%;
- }
- 
- .text-copy:nth-child(2) {
-   stroke: #cc6699;
-   stroke-dashoffset: 14%;
- }
- 
- .text-copy:nth-child(3) {
-   stroke: #ff99cc;
-   stroke-dashoffset: 21%;
- }
- 
- .text-copy:nth-child(4) {
-   stroke: #cc6699;
-   stroke-dashoffset: 28%;
- }
- 
- .text-copy:nth-child(5) {
-   stroke: #993399;
-   stroke-dashoffset: 35%;
- }
- 
- @-webkit-keyframes stroke-offset {
-   50% {
-     stroke-dashoffset: 35%;
-     stroke-dasharray: 0 87.5%;
-   }
- }
- 
- @keyframes stroke-offset {
-   50% {
-     stroke-dashoffset: 35%;
-     stroke-dasharray: 0 87.5%;
-   }
- }
 
  
  section .col {
@@ -149,21 +83,12 @@ nav{
      text-align: center;
  }
  
- .portfolio img, .habilidades li {
-     -ms-filter: "progid:DXImageTransform@mixin Microsoft@mixin Alpha(Opacity=${iefactor})";
-     filter: "alpha(opacity=(${iefactor}))";
- 
- }
  
  .portfolio img {
      width: 100%;
      float: left;
  }
- 
- .silcolor{
-   color:#993399;
- }
- 
+
  footer.page-footer .footer-copyright{
    height:70px !important;
    padding-top:10px;
@@ -180,17 +105,11 @@ nav{
  .min{
    min-height: 450px !important;
  }
- 
- .saludo{
-   font-family: 'La Belle Aurore', cursive;
- }
- 
+
  .centrar{
    text-align:center;
  }
-  h5{
-        font-weight: 300!important;
-  }
+
  
 
  
@@ -201,8 +120,8 @@ nav{
     z-index: -20;
     object-fit: cover;
     height: 100%;
-    /* background: url(Component/imgbreak/burgerchip.jpg) no-repeat;
-    background-size: cover; */
+    background: url(Component/imgbreak/burgerchip.jpg) no-repeat;
+    background-size: cover;
 
     
     
@@ -220,4 +139,21 @@ nav{
 
 .img-logo{
     width:50px;
+}
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+
 }
