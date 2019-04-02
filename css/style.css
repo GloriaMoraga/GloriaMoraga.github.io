@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Cormorant+Upright:400,600,700|Open+Sans:300,400,700&subset=latin-ext');
 
-
+html {
+  scroll-behavior: smooth;
+  line-height: 1;
+  font-family: 'Open Sans', sans-serif;
+  color:#666666;
+}
 
 nav{
    box-shadow: none!important; 
@@ -33,7 +38,7 @@ nav{
  
  .parallax-container {
    line-height: 0;
-   height: auto;
+   height: 580px!important;
  }
    .parallax-container .section {
      width: 100%;
@@ -44,20 +49,40 @@ nav{
   margin: 0 auto;
 }
  
+#background-video{
+
+  position: absolute;
+  width: 100%;
+  z-index: -20;
+  object-fit: cover;
+  height: 100vh;
+  background: url(img/Hey-World.jpg) no-repeat;
+  background-size: cover;
+
+  
+  
+  }
+.video-opacity{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 1;
+  transition: opacity 0.5s ease;
+  background: rgba(153, 51, 153, 0.2);
+}
+
+.img-logo{
+  width:50px;
+}
  .icon-block {
    padding: 0 15px;
  }
  .icon-block .material-icons {
    font-size: inherit;
  }
- 
- footer.page-footer {
-   margin: 0;
-   padding-top: 0 !important;
- }
- 
- 
- 
+
  
 
  
@@ -89,6 +114,15 @@ nav{
      float: left;
  }
 
+
+  
+ footer.page-footer {
+  margin: 0;
+  padding-top: 0 !important;
+}
+
+
+
  footer.page-footer .footer-copyright{
    height:70px !important;
    padding-top:10px;
@@ -113,33 +147,7 @@ nav{
  
 
  
-#background-video{
 
-    position: absolute;
-    width: 100%;
-    z-index: -20;
-    object-fit: cover;
-    height: 100%;
-    background: url(Component/imgbreak/burgerchip.jpg) no-repeat;
-    background-size: cover;
-
-    
-    
-    }
-.video-opacity{
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    opacity: 1;
-    transition: opacity 0.5s ease;
-    background: rgba(153, 51, 153, 0.2);
-}
-
-.img-logo{
-    width:50px;
-}
 
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
