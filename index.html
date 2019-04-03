@@ -9,7 +9,8 @@
        <!-- CSS  -->
     <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>  
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    
 
 </head>
 
@@ -39,15 +40,26 @@
       </header>  
      
 
-        <section class="parallax-container valign-wrapper">
+        <section class="parallax-container min valign-wrapper">
             <div class="section">
               <div class="container">
                 <div class="row center"> 
                   <div class="text-index">
-                  <h3 class="txt-title">{Gloria Moraga}</h3>
+                  <h3 class="txt-title"><span class="color-sil">{</span>Gloria Moraga<span class="color-sil">}</span></h3>
                   <p class="txt-parrafo">
-                    Soy una seguidora de tendencias web, me fascinan los diseños minimalistas y enfocados en la experiencia del usuario. </p>
-                  <a href="#sobremi" class="btn-floating waves-effect waves-light purple lighten-1"><i class="material-icons">keyboard_arrow_down</i> </a>
+                      Me encanta diseñar web minimalistas enfocadas en la experiencia del usuario, disfruto creando a través de los códigos.
+                   </p>
+
+
+                    <a class="scroll-link" href="#sobremi">
+                      <svg class="mouse" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 76 130" preserveAspectRatio="xMidYMid meet">
+                      <g fill="none" fill-rule="evenodd">
+                        <rect width="70" height="118" x="1.5" y="1.5" stroke="#FFF" stroke-width="3" rx="36"/>
+                        <circle class="scroll" cx="36.5" cy="31.5" r="4.5" fill="#FFF"/>
+                      </g>
+                    </svg>
+                    </a>
+                  <!-- <a href="#sobremi" class="btn-floating waves-effect waves-light purple lighten-1"><i class="material-icons">keyboard_arrow_down</i> </a> -->
                 </div>
               </div>
             </div>
@@ -67,8 +79,8 @@
 
     <section id="sobremi" class="sobremi scrollspy">
         <div class="container">
-            <h4 class="silcolor">Sobre mí</h4>
-            <hr class="silcolor">
+            <h4 class="color-sil">Sobre mí</h4>
+            <hr class="color-sil">
             <div class="row">
               <div class="col s12 m6 center">
               <img class="responsive-img " src="img/perfil-sil2.png">
@@ -81,11 +93,13 @@
               </div>
             </div>
               <div class="col s12 m6">
-              <h5> ¡Hola!</h5>
-            <p>Mi nombre es Gloria Moraga, tambien conocida como Silmeriel.
-              Desarrolladora Front-End, titulada en Diseño y Programación multimedia en Incap, ademas de ser proxima egresada de el Bootcamp Laboratoria.
-              Me considero una busquilla obsesionada, enfocada en el continuo aprendizaje, siempre en compañia de la organizacion a traves de metodologias agíles.
-</p> <h5> "Mi meta siempre es encontrar respuestas a los desafíos".</h5></div>
+              <h5 class="titulo-about"> ¡Hola, Soy Gloria Moraga!</h5>
+            <p>
+              Diseñadora Web, titulada en Diseño & Programación Multimedia en Inacap y  egrresada como Desarrolladora frontEnd en Laboratoria.
+              Soy una devoradora de tendencias web, me fascinan los diseños minimalistas y enfocados en la experiencia del usuario. 
+              Me considero una busquilla obsesionada, enfocada en el continuo aprendizaje, organizacion a traves de metodologias agíles.</p> 
+              
+            <h5 class="titulo-about"> "Mi meta siempre es encontrar respuestas a los desafíos".</h5></div>
 
             </div>
 
@@ -93,76 +107,43 @@
 </section>
 
 <section id="habilidades" class="habilidades scrollspy">
-  <div class="container">
-  <h4 class="silcolor">Habilidades</h4>
-            <hr class="silcolor">
-            <div class="row">
-                <ul>
-                    <li>
-                        <div class="col s12 m4">
-                            <div class="center">
-                                <i class="material-icons btn-floating waves-effect waves-light purple lighten-1">code</i>
-                                <h6>Desarrollo Front-End</h6>
-                                <p class="light center">
-                                  Desarrollo en Html5, Css3, Jquery, implementación y desarrollo en WordPress.
-                                </p>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="col s12 m4">
-                            <div class="center">
-                                <i class="material-icons btn-floating waves-effect waves-light purple lighten-1">stay_primary_portrait</i>
-                                <h6>Responsive Design</h6>
-                                <p class="light center">
-                                  Diseños adaptables a todos los dispositivos de escritorios y moviles.
+     <div class="container">
+          <h4 class="color-sil">Habilidades</h4>
+          <hr class="color-sil">
+          <div class="row">
 
-                                </p>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="col s12 m4">
-                            <div class="center">
-                                <i class="material-icons btn-floating waves-effect waves-light purple lighten-1">play_arrow</i>
-                                <h6>Diseño & Multimedia </h6>
-                                <p class="light center">
-                                    Animación multimedia, diseño de banner y edición de videos.
-                                </p>
-                            </div>
-                        </div>
-                    </li>
-                </ul>
-            </div>
+                
+
+
           </div>
+      </div>
 </section>
 
 <section id="portfolio" class="portfolio white scrollspy">
-<div class="container">
-  <h4 class="silcolor">Trabajos Destacados</h4>
-  <hr class="silcolor">
-  <p class="center">Algunos de mis ultimos trabajos realizados.</p>
-  <div class="row">
-      <div class="col s12 m12 l12 portfolio-holder">
-          <div class="col s12 m4"><img class="materialboxed padd" src="img/tallerverde-web-1024x711.jpg" data-caption="Web realizada en Wordpress"/>
-          </div>
-          <div class="col s12 m4"><img class="materialboxed padd" src="img/thecave-web-1024x711.jpg" data-caption="Desarrollo web realizado en Wordpress para Agencia Bullet."/>
-          </div>
-          <div class="col s12 m4"><img class="materialboxed padd" src="img/thecave-web-1024x711.jpg" data-caption="Desarrollo web realizado en Wordpress para Agencia Bullet." />
-          </div>
-          
-      </div>
-  </div>
-</div>
+  <div class="container">
+    <h4 class="color-sil">Trabajos Destacados</h4>
+    <hr class="color-sil">
+     <p class="center">Algunos de mis ultimos trabajos realizados.</p>
+     <div class="row">
+         <div class="col s12 m12 l12 portfolio-holder">
+            <div class="col s12 m4"><img class="materialboxed padd" src="img/tallerverde-web-1024x711.jpg" data-caption="Web realizada en Wordpress"/>
+            </div>
+            <div class="col s12 m4"><img class="materialboxed padd" src="img/thecave-web-1024x711.jpg" data-caption="Desarrollo web realizado en Wordpress para Agencia Bullet."/>
+            </div>
+            <div class="col s12 m4"><img class="materialboxed padd" src="img/thecave-web-1024x711.jpg" data-caption="Desarrollo web realizado en Wordpress para Agencia Bullet." />
+           </div>
+         </div>
+   </div>
+ </div>
 </section>
 
-<section id="contacto" class="parallax-container valign-wrapper min scrollspy">
+<section id="contacto" class="parallax-container valign-wrapper scrollspy">
   <div class="section no-pad-bot">
     <div class="container">
       <div class="row center">
         <h5 class="header col s12 white-text">
             Si tienes alguna consulta o quieres que sea parte de algún proyecto web,
-            escríbeme a <a href="mailto:hola@silmeriel.cl">hola@silmeriel.cl</a> o en el siguiente formulario.
+            escríbeme a <a class="color-sil" href="mailto:hola@silmeriel.cl">hola@silmeriel.cl</a> o en el siguiente formulario.
         </h5> 
         <a class="waves-effect waves-light btn purple modal-trigger" href="#modal1">
           <i class="material-icons left">mail</i>contactame</a>
@@ -176,7 +157,9 @@
       <source src="img/mail.mp4" type="video/ogg" />
 
       Your browser does not support the video tag.
-  </video></div>
+  </video>
+  <div class="video-opacity" ></div>
+</div>
 </section>
 
 
@@ -185,7 +168,7 @@
     <div class="container">
       <div class="row">
       <div class="col s12">
-        <p class="center-align grey-text text-darken-2" >Hecho con  por <a class="purple-text text-lighten-3" href="http://silmeriel.cl">Silmeriel</a>  © 2019</p>
+        <p class="center-align grey-text text-darken-2" >Hecho con <i class="fas fa-heart color-sil"></i> por <a class="purple-text text-lighten-3" href="http://silmeriel.cl">Silmeriel</a>  © 2019</p>
       </div>
       
       </div>
