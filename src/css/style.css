@@ -19,7 +19,8 @@ nav{
  p {
    line-height: 2rem;
  font-family: 'Open Sans', sans-serif;
- font-weight: 300;
+ font-weight: 400;
+ color:#666666;
  }
  
  .button-collapse {
@@ -34,11 +35,12 @@ nav{
     font-family: 'Open Sans', sans-serif;
     color: #fff;
     font-size: 18px;
+    font-weight: 300;
  }
  
  .parallax-container {
    line-height: 0;
-   height: 580px!important;
+   height: 450px!important;
  }
    .parallax-container .section {
      width: 100%;
@@ -48,7 +50,10 @@ nav{
   width: 60%;
   margin: 0 auto;
 }
- 
+ .color-sil{
+   color:#ba4097;
+ }
+
 #background-video{
 
   position: absolute;
@@ -62,6 +67,11 @@ nav{
   
   
   }
+
+ .titulo-about{
+   font-family: 'Cormorant Upright', serif;
+   color: #666666;
+ } 
 .video-opacity{
   position: absolute;
   top: 0;
@@ -100,7 +110,7 @@ nav{
  section h4 {
      text-align: center;
      margin-bottom: 15px;
-         font-weight: 200;
+     font-weight: 200;
  
  }
  .portfolio .portfolio-holder {
@@ -137,7 +147,7 @@ nav{
  }
  
  .min{
-   min-height: 450px !important;
+   min-height: 580px !important;
  }
 
  .centrar{
@@ -145,7 +155,42 @@ nav{
  }
 
  
+ .mouse {
+	max-width:30px;
+	width: 100%;
+  height: auto;
+  margin-bottom: 100px;
+}
 
+.scroll {
+	animation-name: scroll;
+	animation-duration: 1.5s;
+	animation-timing-function: cubic-bezier(0.650, -0.550, 0.250, 1.500);
+	animation-iteration-count: infinite;
+	transform-origin: 50% 20.5px;
+	will-change: transform, opacity;
+	opacity: 1;
+}
+
+.scroll-link {
+	position: absolute;
+	bottom: 1rem;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+@keyframes scroll {
+
+	0%, 20% {
+		transform: translateY(0) scaleY(1);
+	}
+
+	100% {
+		transform: translateY(36px) scaleY(2);
+		opacity: 0;
+	}
+
+}
  
 
 
