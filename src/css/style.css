@@ -153,8 +153,14 @@ nav{
  .centrar{
    text-align:center;
  }
+.btn-sil{
+  background-color: #ba4097;
+}
+ .icon-heart{
+   font-size: 10px;
+   color: #ba4097;
+ }
 
- 
  .mouse {
 	max-width:30px;
 	width: 100%;
@@ -195,18 +201,17 @@ nav{
 
 
 @media only screen and (max-width : 992px) {
-  .parallax-container .section {
-    position: absolute;
-    top: 40%;
-  }
-  #index-banner .section {
-    top: 10%;
-  }
+
 }
 
 @media only screen and (max-width : 600px) {
-  #index-banner .section {
-    top: 0;
-  }
 
+  .text-index {
+    width: 100%;
+    margin: 0 auto;
+}
+
+  #background-video {
+    height: auto;
+  }
 }
