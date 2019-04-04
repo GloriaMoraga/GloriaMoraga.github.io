@@ -9,6 +9,8 @@ html {
 
 nav{
    box-shadow: none!important; 
+   position:fixed;
+   z-index:1000;
 }
  nav ul a,
  nav .brand-logo {
@@ -211,7 +213,5 @@ nav{
     margin: 0 auto;
 }
 
-  #background-video {
-    height: auto;
-  }
+
 }
