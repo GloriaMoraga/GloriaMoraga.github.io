@@ -84,7 +84,9 @@ nav{
   transition: opacity 0.5s ease;
   background: rgba(153, 51, 153, 0.2);
 }
-
+.icon-size{
+  font-size: 25px;
+}
 .img-logo{
   width:50px;
 }
@@ -133,6 +135,9 @@ nav{
   padding-top: 0 !important;
 }
 
+.iconos-about{
+ margin-left: 20px;
+}
 
 
  footer.page-footer .footer-copyright{
@@ -185,6 +190,105 @@ nav{
 	bottom: 1rem;
 	left: 50%;
 	transform: translateX(-50%);
+}
+
+.icon__container {
+  position: relative;
+  font-size: 5vw;
+  padding: 1vw;
+  width: 20vw;
+  padding-top: 20vw;
+  border: 1 px solid black;
+}
+.itsall {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+/* Animacion iconos en habilidades */
+.icon {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.icon:hover .wordpress {
+  color: #21759b;
+  animation: face--move 1s ease-in-out forwards;
+}
+@keyframes face--move {
+  0% {
+    transform: translate3d(0, 0, 0) scale(0.6);
+  }
+  100% {
+    transform: translate3d(8vw, 1vw, 0) scale(0.8);
+  }
+}
+.icon:hover .photoshop {
+  color: #1bb2e9;
+  animation: twit--move 1s ease-in-out forwards;
+}
+@keyframes twit--move {
+  0% {
+    transform: translate3d(0, 0, 0) scale(0.6);
+  }
+  100% {
+    transform: translate3d(-8vw, 1vw, 0) scale(0.8);
+  }
+}
+.icon:hover .dribbble {
+  color: #f36798;
+  animation: drib--move 1s ease-in-out forwards;
+}
+@keyframes drib--move {
+  0% {
+    transform: translate3d(0, 0, 0) scale(0.6);
+  }
+  100% {
+    transform: translate3d(8vw, -1vw, 0) scale(0.8);
+  }
+}
+.icon:hover .illustrator {
+  color: #0077b5;
+  animation: link--move 1s ease-in-out forwards;
+}
+@keyframes link--move {
+  0% {
+    transform: translate3d(0, 0, 0) scale(0.6);
+  }
+  100% {
+    transform: translate3d(-8vw, -1vw, 0) scale(0.8);
+  }
+}
+.computer {
+  width: 20vw;
+}
+.social--media {
+  font-size: 4vw;
+  position: absolute;
+  transform: scale(0.6);
+}
+.social--media.wordpress {
+  left: -4vw;
+  top: 2vw;
+}
+.social--media.photoshop{
+  right: -4vw;
+  top: 2vw;
+}
+.social--media.illustrator{
+  right: -4vw;
+  bottom: 7vw;
+}
+.social--media.dribbble {
+  left: -4vw;
+  bottom: 7vw;
+}
+.cart {
+  width: 15vw;
 }
 
 @keyframes scroll {
