@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Cormorant+Upright:400,600,700|Open+Sans:300,400,700&subset=latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Upright:400,600,700|Josefin+Sans:300,400,600|Open+Sans:300,400,700&subset=latin-ext');
 
 html {
   scroll-behavior: smooth;
@@ -17,9 +17,23 @@ nav{
    color: #666!important;
    font-weight: 200;
  }
- 
+ .sobremi{
+   background-color: #f3f2f169;
+ }
+ .titles{
+  font-family: 'Josefin Sans', sans-serif;
+  color:#ba4097dd;
+  font-size:30px;
+  line-height: 31px;
+  font-weight: 400;
+  margin-bottom: 60px;
+ }
+
+ .portfolio{
+  background-color: #f3f2f169;
+ }
  p {
-   line-height: 2rem;
+line-height: 2rem;
  font-family: 'Open Sans', sans-serif;
  font-weight: 400;
  color:#666666;
@@ -40,6 +54,13 @@ nav{
     font-weight: 300;
  }
  
+ .title-text {
+  font-family: 'Josefin Sans', sans-serif;
+  color:#45b29a;
+  font-size:24px;
+  line-height: 31px;
+  font-weight: 400;
+ }
  .parallax-container {
    line-height: 0;
    height: 450px!important;
@@ -154,7 +175,7 @@ nav{
  }
  
  .min{
-   min-height: 580px !important;
+   min-height: 620px !important;
  }
 
  .centrar{
@@ -191,7 +212,15 @@ nav{
 	left: 50%;
 	transform: translateX(-50%);
 }
-
+.skill-text{
+  margin-top: 60px;
+}
+/* Animacion iconos en habilidades */
+.box-desktop{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .icon__container {
   position: relative;
   font-size: 5vw;
@@ -208,84 +237,86 @@ nav{
   right: 0;
 }
 
-/* Animacion iconos en habilidades */
 .icon {
   position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.icon:hover .wordpress {
+.icon .wordpress {
   color: #21759b;
-  animation: face--move 1s ease-in-out forwards;
+  animation: face--move 4s ease-in-out infinite;
+  
 }
 @keyframes face--move {
   0% {
     transform: translate3d(0, 0, 0) scale(0.6);
   }
-  100% {
+28%, 100% {
     transform: translate3d(8vw, 1vw, 0) scale(0.8);
   }
 }
-.icon:hover .photoshop {
+.icon .photoshop {
   color: #1bb2e9;
-  animation: twit--move 1s ease-in-out forwards;
+  animation: twit--move 4s ease-in-out infinite;
 }
 @keyframes twit--move {
   0% {
     transform: translate3d(0, 0, 0) scale(0.6);
   }
-  100% {
+  28%, 100% {
     transform: translate3d(-8vw, 1vw, 0) scale(0.8);
   }
 }
-.icon:hover .dribbble {
+.icon  .trello{
   color: #f36798;
-  animation: drib--move 1s ease-in-out forwards;
+  animation: drib--move 4s ease-in-out infinite;
 }
 @keyframes drib--move {
   0% {
     transform: translate3d(0, 0, 0) scale(0.6);
   }
-  100% {
+  28%, 100% {
     transform: translate3d(8vw, -1vw, 0) scale(0.8);
   }
 }
-.icon:hover .illustrator {
-  color: #0077b5;
-  animation: link--move 1s ease-in-out forwards;
+.icon .illustrator {
+  color: #FAA625;
+  animation: link--move 4s ease-in-out infinite;
 }
 @keyframes link--move {
   0% {
     transform: translate3d(0, 0, 0) scale(0.6);
   }
-  100% {
+  28%, 100% {
     transform: translate3d(-8vw, -1vw, 0) scale(0.8);
   }
 }
 .computer {
-  width: 20vw;
+  width: 18vw;
 }
 .social--media {
-  font-size: 4vw;
+  font-size: 3vw;
   position: absolute;
   transform: scale(0.6);
+  color:#45b29a;
+
 }
 .social--media.wordpress {
   left: -4vw;
-  top: 2vw;
+  top: 3vw;
 }
 .social--media.photoshop{
   right: -4vw;
-  top: 2vw;
+  top: 3vw;
 }
 .social--media.illustrator{
   right: -4vw;
-  bottom: 7vw;
+  bottom: 6vw;
 }
-.social--media.dribbble {
+.social--media.trello {
   left: -4vw;
-  bottom: 7vw;
+  bottom: 6vw;
 }
 .cart {
   width: 15vw;
@@ -294,11 +325,11 @@ nav{
 @keyframes scroll {
 
 	0%, 20% {
-		transform: translateY(0) scaleY(1);
+		transform: translateY(0) scaleY(0.8);
 	}
 
 	100% {
-		transform: translateY(36px) scaleY(2);
+		transform: translateY(36px) scaleY(1);
 		opacity: 0;
 	}
 
