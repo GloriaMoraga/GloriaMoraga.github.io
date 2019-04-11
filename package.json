@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/GloriaMoraga/gloriamoraga.github.io.git"
+    "url": "git+https://github.com/GloriaMoraga/Portafolio.git"
   },
   "author": "Gloria Moraga",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/GloriaMoraga/Portafolio/issues"
   },
-  "homepage": "https://github.com/GloriaMoraga/gloriamoraga.github.io#readme",
+  "homepage": "https://github.com/GloriaMoraga/Portafolio#readme",
   "dependencies": {
     "jest": "^24.5.0"
   },
