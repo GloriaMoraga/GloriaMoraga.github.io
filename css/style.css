@@ -26,7 +26,7 @@ nav{
   font-size:30px;
   line-height: 31px;
   font-weight: 400;
-  margin-bottom: 60px;
+  margin-bottom: 20px;
  }
 
  .portfolio{
@@ -84,7 +84,7 @@ line-height: 2rem;
   z-index: -20;
   object-fit: cover;
   height: 100vh;
-  background: url(img/Hey-World.jpg) no-repeat;
+  background: url(../img/Hey-World.jpg) no-repeat;
   background-size: cover;
 
   
@@ -348,5 +348,27 @@ line-height: 2rem;
     margin: 0 auto;
 }
 
+.icon__container{
+  width: 80vw;
 
+}
+.icon {
+
+  align-items: normal;
+  justify-content: normal;
+
+}
+.computer {
+  width: 80vw;
+}
+.margin-sx{
+  margin-top:40px;
+}
+
+.materialbox-caption {
+  margin-bottom: 120px;
+ height: none; 
+ line-height: 20px!important;
+
+}
 }

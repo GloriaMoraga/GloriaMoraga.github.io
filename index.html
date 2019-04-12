@@ -28,6 +28,7 @@
                 <li><a href="#portfolio">Portafolio</a></li>
                 <li><a href="#contacto">Contacto</a></li>
               </ul>
+
                     
             </div>
          
@@ -81,9 +82,10 @@
               <div class="col s12 m6 center">
               <img class="responsive-img " src="img/perfil-sil2.png">
               <div class="col s12 ">
-             <a href="https://github.com/GloriaMoraga" class="icon-size color-sil iconos-about" target="_blank"><i class="fab fa-github"></i></a>
-              <a href="https://www.linkedin.com/in/gloria-moraga-morales" class=" icon-size color-sil iconos-about " target="_blank"><i class="fab fa-linkedin"></i></a>
-              <a href="mailto:hola@silmeriel.cl" class="icon-size color-sil iconos-about"><i class="fas fa-envelope"></i></a>
+             <a href="https://github.com/GloriaMoraga" class="icon-size color-sil iconos-about tooltipped" data-position="bottom" data-tooltip="GitHub" target="_blank"><i class="fab fa-github"></i></a>
+              <a href="https://www.linkedin.com/in/gloria-moraga-morales" class=" icon-size color-sil iconos-about tooltipped " data-position="bottom" data-tooltip="Linkedin" target="_blank"><i class="fab fa-linkedin"></i></a>
+              <a href="mailto:hola@silmeriel.cl" class="icon-size color-sil iconos-about tooltipped " data-position="bottom" data-tooltip="Email"><i class="fas fa-envelope"></i></a>
+              <a href="img/Gloria-Moraga-Morales-2019.pdf" class="icon-size color-sil iconos-about tooltipped " data-position="bottom" data-tooltip="Curriculum" target="_blank"><i class="far fa-file-pdf"></i></a>
               </div>
             </div>
               <div class="col s12 m6">
@@ -116,7 +118,7 @@
                         </div>
                   </div>
 
-                  <div class="col m6 center-align">
+                  <div class="col m6 center-align margin-sx">
                       <h6 class="title-text" >Desarrolladora frontEnd</h6>
                       <p>Desarrollo de Websites y aplicaciones usando tecnologias como HTML, CSS, DOM, JavaScript, Framework Css Bootstrap, Materialize o Bulma, tambien librerias JS como React, herramientas de desarrollo web como Firebase y consumo de Apis.</p>
                   </div>
@@ -152,9 +154,10 @@
         <h4 class="titles">Trabajos Destacados</h4>
          <p class="center">Algunos de mis ultimos trabajos realizados.</p>
          <div class="col s12 m12 l12 portfolio-holder">
-            <div class="col s12 m4"><img class="materialboxed padd" src="img/tallerverde-web-1024x711.jpg" data-caption="Web realizada en Wordpress"/>
+            <div class="col s12 m4">
+              <img class="materialboxed padd" src="img/tallerverde-web-1024x711.jpg" data-caption="Desarrollo Web realizada en Wordpress para cliente Taller verde Sur."/>
             </div>
-            <div class="col s12 m4"><img class="materialboxed padd" src="img/thecave-web-1024x711.jpg" data-caption="Desarrollo web realizado en Wordpress para Agencia Bullet."/>
+            <div class="col s12 m4"><img class="materialboxed padd" src="img/thecave-web-1024x711.jpg" data-caption="Diseño y Desarrollo web en Wordpress para cliente The Cave"/>
             </div>
             <div class="col s12 m4"><img class="materialboxed padd" src="img/thecave-web-1024x711.jpg" data-caption="Desarrollo web realizado en Wordpress para Agencia Bullet." />
            </div>
@@ -188,6 +191,14 @@
 </div>
 </section>
 
+ <!-- Modal Structure -->
+ <div id="modal1" class="modal">
+    <div class="modal-content">
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Cerrar</a>
+     </div>
+  </div>
 
 <footer class="page-footer white">
   <div class="footer-copyright">
@@ -203,8 +214,11 @@
 </footer>
 
  <!--  Scripts-->
+
+
  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
  <script src="js/app.js"></script>
+ 
 
  
    
