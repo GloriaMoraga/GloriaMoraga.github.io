@@ -1,7 +1,11 @@
 
-document.addEventListener('DOMContentLoaded', function() {
-    var elems = document.querySelectorAll('.scrollspy');
-    var instances = M.ScrollSpy.init(elems, options);
-  });
-
-
+    const gallery = document.querySelectorAll('.materialboxed');
+    M.Materialbox.init(gallery , {});
+    
+    const modalbox = document.querySelectorAll('.modal');
+    M.Modal.init(modalbox , {});
+     
+    const toltip = document.querySelectorAll('.tooltipped');
+    M.Tooltip.init(toltip, {});
+   
+  
