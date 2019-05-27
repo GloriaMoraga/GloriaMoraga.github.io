@@ -389,4 +389,27 @@ line-height: 2rem;
  line-height: 20px!important;
 
 }
+
+.social--media {
+  font-size: 7vw;
+
+
+}
+.social--media.wordpress {
+  left: 18vw;
+  top: 8vw;
+}
+.social--media.photoshop{
+  right: 18vw;
+  top: 8vw;
+}
+.social--media.illustrator{
+  right: 18vw;
+  bottom: 13vw;
+}
+.social--media.trello {
+  left: 18vw;
+  bottom: 13vw;
+
+}
 }
